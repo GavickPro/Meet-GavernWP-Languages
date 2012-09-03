@@ -1,0 +1,98 @@
+[
+	{
+		"groupname": "Настройки бренда",
+		"groupdesc": "Вы можете настроить показ на сайте Ваших фирменных знаков и др.",
+		"fields": [
+			{
+				"name": "template_footer_content",
+				"type": "Textarea",
+				"label": "Информация о копирайте",
+				"tooltip": "Укажите информацию для нижнего колонтитула на сайте",
+				"default": "",
+				"class": "",
+				"visibility": ""
+			},
+			{
+				"name": "template_footer_logo",
+				"type": "Switcher",
+				"label": "Логотип фраймверка GavernWP",
+				"tooltip": "Включить отображение логотипа фраймверка GavernWP внизу сайта",
+				"default": "Y",
+				"class": "",
+				"visibility": ""
+			},
+			{
+				"name": "branding_logo_type",
+				"type": "Select",
+				"label": "Тип логотипа Темы",
+				"tooltip": "Выберите необходимый тип логотипа",
+				"default": "css",
+				"class": "",
+				"visibility": "",
+				"other": {
+					"options": {
+						"css": "Определено в коде CSS",
+						"image": "Изображение",
+						"text": "Текст",
+						"none": "без логотипа"
+					}
+				}
+			},
+			{
+				"name": "branding_logo_image",
+				"type": "Media",
+				"label": "Изображение логотипа",
+				"tooltip": "Выберите изображение для логотипа",
+				"default": "",
+				"class": "",
+				"visibility": "branding_logo_type=image"
+			},
+			{
+				"name": "branding_logo_image_width_height",
+				"type": "WidthHeight",
+				"label": "Размер логотипа",
+				"tooltip": "Укажите размер вашего логотипа",
+				"default": "",
+				"class": "",
+				"visibility": "branding_logo_type=image",
+				"other": {
+					"size": "2",
+					"unit": "пикселей"
+				}
+			},
+			{
+				"name": "branding_logo_text_type",
+				"type": "Select",
+				"label": "Логтип в виде текста",
+				"tooltip": "Укажите будет ли текст собственным или взять его из настроек Wordpress",
+				"default": "wp",
+				"class": "",
+				"visibility": "branding_logo_type=text",
+				"other": {
+					"options": {
+						"own": "Собственный",
+						"wp": "Из настроек Wordpress"
+					}
+				}
+			},
+			{
+				"name": "branding_logo_text_value",
+				"type": "Text",
+				"label": "Текст логотипа",
+				"tooltip": " Укажите текст логотипа",
+				"default": "",
+				"class": "",
+				"visibility": "branding_logo_text_type=own,branding_logo_type=text"
+			},
+			{
+				"name": "branding_logo_slogan_value",
+				"type": "Text",
+				"label": "Слоган",
+				"tooltip": "Укажите текст слогана",
+				"default": "",
+				"class": "",
+				"visibility": "branding_logo_text_type=own,branding_logo_type=text"
+			}
+		]
+	}
+]

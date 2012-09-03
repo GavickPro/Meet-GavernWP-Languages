@@ -1,0 +1,14 @@
+[
+	{
+		"family": "color",
+		"family_desc": "Стиль темы",
+		"family_tooltip": "Вы можете выбрать созданный стиль для темы",
+		"styles": [
+			{
+				"name": "Стиль 1",
+				"value": "color1",
+				"file": "style1.css"
+			}
+		]
+	}
+]

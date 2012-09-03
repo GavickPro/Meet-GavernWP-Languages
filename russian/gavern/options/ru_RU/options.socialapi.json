@@ -1,0 +1,308 @@
+[
+	{
+		"groupname": "Настройки Социальных API",
+		"groupdesc": "Настройка параметров для социальных сетей",
+		"fields": [
+			{
+				"name": "fb_explained",
+				"type": "TextBlock",
+				"label": "Настройки для Facebook"
+			},
+			{
+				"name": "fb_api_id",
+				"type": "Text",
+				"label": "ID приложения Facebook",
+				"tooltip": "Укажите ID Вашего приложения на Facebbok для кнопки 'Мне нравится'"
+			},
+			{
+				"name": "fb_lang",
+				"type": "Text",
+				"label": "Язык для кнопки Facebook",
+				"tooltip": "Укажите какой язык будет применяться в формате xx_YY (например: ru_RU)",
+				"default": "ru_RU"
+			},
+			{
+				"name": "fb_like",
+				"type": "Switcher",
+				"label": "Кнопка Facebook 'Мне нравится'",
+				"tooltip": "Включить/Выключить кнопку 'Мне нравится'",
+				"default": "Y"
+			},
+			{
+				"name": "fb_like_send",
+				"type": "Switcher",
+				"label": "Кнопка Facebook 'Отправить'",
+				"tooltip": "Включить/Выключить кнопку 'Отправить'",
+				"default": "Y"
+			},
+			{
+				"name": "fb_like_layout",
+				"type": "Select",
+				"label": "Разметка кнопки 'Мне нравится'",
+				"tooltip": "Выберите разметку для кнопки 'Мне нравится'",
+				"default": "standard",
+				"visibility": "fb_like=Y",
+				"other": {
+					"options": {
+						"standard": "Стандартный",
+						"button_count": "С миниатюрным счётчиком",
+						"box_count": "С крупным счётчиком"
+					}
+				}
+			},
+			{
+				"name": "fb_like_show_faces",
+				"type": "Select",
+				"label": "Показывать аватарки",
+				"tooltip": "Включить/Выключить отображение аватарок тех, кто нажал на кнопку 'Мне нравится'",
+				"default": "true",
+				"visibility": "fb_like=Y",
+				"other": {
+					"options": {
+						"true": "Да",
+						"false": "Нет"
+					}
+				}
+			},
+			{
+				"name": "fb_like_width",
+				"type": "Text",
+				"label": "Ширина кнопки",
+				"tooltip": "Укажите ширину кнопки 'Мне нравится'",
+				"default": "300",
+				"visibility": "fb_like=Y"
+			},
+			{
+				"name": "fb_like_action",
+				"type": "Select",
+				"label": "Действие кнопки",
+				"tooltip": "Выберите действие для кнопки 'Мне нравится'",
+				"default": "like",
+				"visibility": "fb_like=Y",
+				"other": {
+					"options": {
+						"like": "Мне нравится",
+						"recommend": "Я рекомендую"
+					}
+				}
+			},
+			{
+				"name": "fb_like_font",
+				"type": "Select",
+				"label": "Шрифт для кнопки",
+				"tooltip": "Выберите шрифт для кнопки 'Мне нравится'",
+				"default": "arial",
+				"visibility": "fb_like=Y",
+				"other": {
+					"options": {
+						"arial": "arial",
+						"lucida grande": "lucida grande",
+						"segoe ui": "segoe ui",
+						"tahoma": "tahoma",
+						"trebuchet ms": "trebuchet ms",
+						"verdana": "verdana"
+					}
+				}
+			},
+			{
+				"name": "fb_like_colorscheme",
+				"type": "Select",
+				"label": "Цветовая схема для кнопки",
+				"tooltip": "Укажите цветовую схему для кнопки 'Мне нравится'",
+				"default": "light",
+				"visibility": "fb_like=Y",
+				"other": {
+					"options": {
+						"light": "Светлая",
+						"dark": "Темная"
+					}
+				}
+			},
+			{
+				"name": "gplus_explained",
+				"type": "TextBlock",
+				"label": "Настройки кнопки '+1'"
+			},
+			{
+				"name": "google_plus",
+				"type": "Switcher",
+				"label": "Кнопка '+1'",
+				"tooltip": "Включить/Выключить кнопку '+1'",
+				"default": "Y"
+			},
+			{
+				"name": "google_plus_count",
+				"type": "Select",
+				"label": "Разметка кнопки '+1'",
+				"tooltip": "Укажите разметку для кнопки '+1'",
+				"default": "none",
+				"visibility": "google_plus=Y",
+				"other": {
+					"options": {
+						"none": "Без надписей",
+						"bubble": "С счетчиком",
+						"inline": "С текстом 'Рекомендовать в Google'"
+					}
+				}
+			},
+			{
+				"name": "google_plus_width",
+				"type": "Text",
+				"label": "Ширина кнопки '+1'",
+				"tooltip": "укажите ширину для кнопки '+1'",
+				"default": "300"
+			},
+			{
+				"name": "google_plus_size",
+				"type": "Select",
+				"label": "Размер кнопки '+1' ",
+				"tooltip": "Укажите размер кнопки '+1'",
+				"default": "standard",
+				"visibility": "google_plus=Y",
+				"other": {
+					"options": {
+						"tall": "Большая",
+						"standard": "Стандартная",
+						"medium": "Средняя",
+						"small": "Маленькая"
+					}
+				}
+			},
+			{
+				"name": "google_plus_lang",
+				"type": "Text",
+				"label": "Язык для кнопки '+1'",
+				"tooltip": "Укажите какой язык будет применяться в формате xx_YY (например: ru_RU)",
+				"default": "ru_RU",
+				"visibility": "google_plus=Y"
+			},
+			{
+				"name": "twitter_explained",
+				"type": "TextBlock",
+				"label": "Настройки для кнопки 'Твитнуть'"
+			},
+			{
+				"name": "tweet_btn",
+				"type": "Switcher",
+				"label": "Кнопка 'Твитнуть'",
+				"tooltip": "Включить/Выключить кнопку 'Твитнуть'",
+				"default": "Y"
+			},
+			{
+				"name": "tweet_btn_data_count",
+				"type": "Select",
+				"label": "Счётчик для кнопки 'Твитнуть'",
+				"tooltip": "Укажите каким должен быть счётчик на кнопке 'Твитнуть'",
+				"default": "vertical",
+				"visibility": "tweet_btn=Y",
+				"other": {
+					"options": {
+						"vertical": "Вертикальный",
+						"horizontal": "Горизонтальный",
+						"none": "Без счётчика"
+					}
+				}
+			},
+			{
+				"name": "tweet_btn_data_via",
+				"type": "Text",
+				"label": "'via' параметр 'Твитта'",
+				"tooltip": "Если у вас есть аккаунт в Твиттере, его можно указать в поле параметра 'via'",
+				"default": "",
+				"visibility": "tweet_btn=Y"
+			},
+			{
+				"name": "tweet_btn_data_lang",
+				"type": "Select",
+				"label": "Язык для кнопки 'Твитнуть'",
+				"tooltip": "Укажите какой язык будет применяться в формате xx (например: ru)",
+				"default": "ru",
+				"visibility": "tweet_btn=Y",
+				"other": {
+					"options": {
+						"en": "English",
+						"fr": "French",
+						"de": "German",
+						"es": "Spanish",
+						"ja": "Japanese",
+						"nl": "Dutch",
+						"id": "Indonesian",
+						"it": "Italian",
+						"ko": "Korean",
+						"pt": "Portuguese",
+						"ru": "Русский",
+						"tr": "Turkish"
+					}
+				}
+			},
+			{
+				"name": "pinterest_explained",
+				"type": "TextBlock",
+				"label": "Настройка кнопки 'Pin it' сервиса Pinterest"
+			},
+			{
+				"name": "pinterest_btn",
+				"type": "Switcher",
+				"label": "Кнопка 'Pin it'",
+				"tooltip": "Включить/Выключить кнопку 'Pin it'",
+				"default": "Y"
+			},
+			{
+				"name": "pinterest_btn_style",
+				"type": "Select",
+				"label": "Разметка кнопки 'Pin it'",
+				"tooltip": "Укажите необходимую разметку для кнопки'Pin it'",
+				"default": "horizontal",
+				"visibility": "pinterest_btn=Y",
+				"other": {
+					"options": {
+						"horizontal": "С счётчиком горизонтально",
+						"vertical": "С счётчиком вертикально",
+						"none": "Без счётчика"
+					}
+				}
+			},
+			{
+				"name": "excluding_explained",
+				"type": "TextBlock",
+				"label": "Включить/Исключить определенные страницы сайта на которых будут использованы Социальные API"
+			},
+			{
+				"name": "social_api_exclude_include",
+				"type": "Select",
+				"label": "Создать правила для использования API",
+				"tooltip": "Установите следует ли создать правила для того, чтобы использовать/не использовать API на отдельных страницах",
+				"default": "exclude",
+				"visibility": "",
+				"other": {
+					"options": {
+						"none": "Выключить везде",
+						"include": "Включить только в определенных статьях/категориях",
+						"exclude": "Выключить только в определенных статьях/категориях"
+					}
+				}
+			},
+			{
+				"name": "social_api_articles",
+				"type": "Text",
+				"label": "Включить/Исключить в следующих статьях",
+				"tooltip": "Укажите разделяя запитыми ID/заголовки/алиасы статей (то есть 2,5,34,200 или post-title1,post-title2)",
+				"default": ""
+			},
+			{
+				"name": "social_api_pages",
+				"type": "Text",
+				"label": "Включить/Исключить в следующих страницах",
+				"tooltip": "Укажите разделяя запитыми ID/заголовки/алиасы страниц (то есть 2,5,34,200 или page-title1,page-title2)",
+				"default": ""
+			},
+			{
+				"name": "social_api_categories",
+				"type": "Text",
+				"label": "Включить/Исключить в следующих категориях",
+				"tooltip": "Укажите разделяя запитыми ID/заголовки/алиасы категорий (то есть 2,5,34,200 или category-title1,category-title2)",
+				"default": ""
+			}
+		]
+	}
+]
