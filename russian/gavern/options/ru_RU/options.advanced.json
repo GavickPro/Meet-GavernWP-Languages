@@ -1,0 +1,88 @@
+[
+	{
+		"groupname": "Расширенные настройки",
+		"groupdesc": "Настройка дополнительных параметров темы",
+		"fields": [
+			{
+				"name": "widget_rules_state",
+				"type": "Switcher",
+				"label": "Правила для виджетов",
+				"tooltip": "Включить использование правил для показа виджетов",
+				"default": "Y"
+			},
+			{
+				"name": "prefixfree_state",
+				"type": "Switcher",
+				"label": "Использовать Prefixfree",
+				"tooltip": "Включить использование скрипта Prefixfree",
+				"default": "N"
+			},
+			{
+				"name": "chromeframe_state",
+				"type": "Switcher",
+				"label": "Поддержка Google Chrome Frame",
+				"tooltip": "Включить использование метатега, который активирует Google Chrome Frame в IE браузерах",
+				"default": "Y"
+			},
+			{
+				"name": "emoticons_widget_state",
+				"type": "Switcher",
+				"label": "Смайлики в виде изображений",
+				"tooltip": "Включить использование изображений вместо обычных смайликов",
+				"default": "Y"
+			},
+			{
+				"name": "shortcodes_widget_state",
+				"type": "Switcher",
+				"label": "Шорткоды в виджетах",
+				"tooltip": "Включить использование шорткодов в текстовых виджетах",
+				"default": "Y"
+			},
+			{
+				"name": "thickbox_state",
+				"type": "Switcher",
+				"label": "Использовать Thickbox",
+				"tooltip": "Включить использование Thickbox для отображения изображений во всплывающем окне",
+				"default": "Y"
+			},
+			{
+				"name": "content_width_variable",
+				"type": "Text",
+				"label": "Значение переменной $content_width",
+				"tooltip": "Укажите значение переменной $content_width, чтобы избежать проблем с изображениями, oEmbeds и т.д. Мы рекомендуем устанавливать ее на максимальную ширину темы",
+				"default": "1024"
+			},
+			{
+				"name": "overridecss_state",
+				"type": "Switcher",
+				"label": "Использовать override.css файл",
+				"tooltip": "Включить использование override.css файла в разделе <head>. Override.css файл является лучшим способом изменения и добавления нового кода CSS, не изменяя исходные файлы темы",
+				"default": "Y"
+			},
+			{
+				"name": "opensearch_explained",
+				"type": "TextBlock",
+				"label": "Настройки Open Search, дополнительную информацию можете прочитать на сайте http://www.opensearch.org/Home"
+			},
+			{
+				"name": "opensearch_use_opensearch",
+				"type": "Switcher",
+				"label": "Включить поддержку Open Search",
+				"tooltip": "Включить поддержку Open Search, дополнительную информацию можете прочитать на сайте http://www.opensearch.org/Home",
+				"default": "Y"
+			},
+			{
+				"name": "opengraph_explained",
+				"type": "TextBlock",
+				"label": "Open Graph является открытым протоколом, используемым социальными сетями, такими как Facebook. Необходимо для точного задания изображения анонса, заголовка, адреса статьи или описания, при публикации статей в социальных сетях"
+			},
+			{
+				"name": "opengraph_use_opengraph",
+				"type": "Switcher",
+				"label": "Включить поддержку Open Graph",
+				"tooltip": "Open Graph является открытым протоколом, используемым социальными сетями, такими как Facebook",
+				"default": "Y"
+			}
+		]
+	}
+]

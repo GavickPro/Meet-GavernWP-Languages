@@ -1,0 +1,127 @@
+[
+	{
+		"groupname": "Настройки SEO",
+		"groupdesc": "Настройки для темы, связанные с поисковой оптимизацией",
+		"fields": [
+			{
+				"name": "seo_use_gk_seo_settings",
+				"type": "Switcher",
+				"label": "Использовать настройки Gavern SEO",
+				"tooltip": "Использовать настройки Gavern SEO, вместо стандартных настроек Wordpress",
+				"default": "Y"
+			},
+			{
+				"name": "seo_use_blogname_in_title",
+				"type": "Switcher",
+				"label": "Показать название сайта в заголовках",
+				"tooltip": "Включить показ названия сайта в заголовках",
+				"default": "Y",
+				"visibility": "seo_use_gk_seo_settings=Y"
+			},
+			{
+				"name": "seo_separator_in_title",
+				"type": "Select",
+				"label": "Разделить в заголовках",
+				"tooltip": "Укажите разделить, который будет использован в заголовках",
+				"default": "Y",
+				"visibility": "seo_use_gk_seo_settings=Y",
+				"other": {
+					"options": {
+						"&raquo;": "&raquo;",
+						"&rsaquo;": "&rsaquo;",
+						"|": "|",
+						"-": "-",
+						"&mdash;": "&mdash;",
+						",": ",",
+						" ": " ",
+						"&bull;": "&bull;"
+					}
+				}
+			},
+			{
+				"name": "seo_description",
+				"type": "Text",
+				"label": "Описание",
+				"tooltip": "Установить фразы, которые будут использоваться в заголовке, как описание сайта",
+				"visibility": "seo_use_gk_seo_settings=Y"
+			},
+			{
+				"name": "seo_blogname",
+				"type": "Text",
+				"label": "Заголовок",
+				"tooltip": "Напишите название, которое будет использоваться в качестве названия сайта в заголовке",
+				"visibility": "seo_use_gk_seo_settings=Y"
+			},
+			{
+				"name": "seo_homepage_desc",
+				"type": "Select",
+				"label": "Описание на Главной странице",
+				"tooltip": "Включить описание на главной странице",
+				"default": "custom",
+				"visibility": "seo_use_gk_seo_settings=Y",
+				"other": {
+					"options": {
+						"custom": "Включить",
+						"off": "Выключить"
+					}
+				}
+			},
+			{
+				"name": "seo_homepage_desc_value",
+				"type": "Text",
+				"label": "Мета-описание к Главной",
+				"tooltip": "Укажите содержание мета-описания для домашней страницы сайта",
+				"visibility": "seo_use_gk_seo_settings=Y,seo_homepage_desc=custom"
+			},
+			{
+				"name": "seo_post_desc",
+				"type": "Select",
+				"label": "Мета-описание к постам",
+				"tooltip": "Включить возможность заполения мета-описания при написании поста в редакторе",
+				"default": "custom",
+				"visibility": "seo_use_gk_seo_settings=Y",
+				"other": {
+					"options": {
+						"custom": "Включить (поле заполняется в редакторе)",
+						"off": "Выключить"
+					}
+				}
+			},
+			{
+				"name": "seo_homepage_keywords",
+				"type": "Select",
+				"label": "Ключевые слова в Главной странице",
+				"tooltip": "Включить использование ключевых слов на лавной странице сайта",
+				"default": "custom",
+				"visibility": "seo_use_gk_seo_settings=Y",
+				"other": {
+					"options": {
+						"custom": "Включить",
+						"off": "Выключить"
+					}
+				}
+			},
+			{
+				"name": "seo_homepage_keywords_value",
+				"type": "Text",
+				"label": "Ключевые слова к Главной странице",
+				"tooltip": "Напишите ключевые слова для главной страницы.",
+				"visibility": "seo_use_gk_seo_settings=Y,seo_homepage_keywords=custom"
+			},
+			{
+				"name": "seo_post_keywords",
+				"type": "Select",
+				"label": "Ключевые слова в постах",
+				"tooltip": "Включить возможность заполения ключевых слов при написании поста в редакторе",
+				"default": "custom",
+				"visibility": "seo_use_gk_seo_settings=Y",
+				"other": {
+					"options": {
+						"custom": "Включить",
+						"off": "Выключить"
+					}
+				}
+			}
+		]
+	}
+]

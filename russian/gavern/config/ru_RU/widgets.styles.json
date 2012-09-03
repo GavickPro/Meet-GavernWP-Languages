@@ -1,0 +1,67 @@
+[
+	{
+		"name": "Синий",
+		"css_class": "blue"
+	},
+	{
+		"name": "Красный",
+		"css_class": "red"
+	},
+	{
+		"name": "Зеленый",
+		"css_class": "green"
+	},
+	{
+		"name": "Желтый",
+		"css_class": "yellow"
+	},
+	{
+		"name": "Синий заголовок",
+		"css_class": "blue-header"
+	},
+	{
+		"name": "Красный заголовок",
+		"css_class": "red-header"
+	},
+	{
+		"name": "Зеленый заголовок",
+		"css_class": "green-header"
+	},
+	{
+		"name": "Желтый заголовок",
+		"css_class": "yellow-header"
+	},
+	{
+		"name": "Обводка I",
+		"css_class": "border1"
+	},
+	{
+		"name": "Обводка II",
+		"css_class": "border2"
+	},
+	{
+		"name": "Обводка III",
+		"css_class": "border3"
+	},
+	{
+		"name": "Синяя обводка",
+		"css_class": "blue-border"
+	},
+	{
+		"name": "Красная обводка",
+		"css_class": "red-border"
+	},
+	{
+		"name": "Зеленая обводка",
+		"css_class": "green-border"
+	},
+	{
+		"name": "Желтая обводка",
+		"css_class": "yellow-border"
+	},
+	{
+		"name": "Unified style",
+		"css_class": "tags",
+		"for_only": "tag_cloud"
+	}
+]

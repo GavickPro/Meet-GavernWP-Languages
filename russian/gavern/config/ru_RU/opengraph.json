@@ -1,0 +1,32 @@
+[
+	{
+		"label": "Заголовок",
+		"desc": "Название страницы. Оставьте пустым, если хотите использовать название страницы по умолчанию",
+		"id": "gavern_opengraph_title",
+		"type": "text"
+	},
+	{
+		"label": "Тип",
+		"desc": "Тип контента т.е. книги, игры",
+		"id": "gavern_opengraph_type",
+		"type": "text"
+	},
+	{
+		"label": "Изображение",
+		"desc": "Изображение, характеризующее страницу. Не менее 50x50 пикселей и с максимальным соотношением 3:1.",
+		"id": "gavern_opengraph_image",
+		"type": "image"
+	},
+	{
+		"label": "Описание",
+		"desc": "Описание для страницы.",
+		"id": "gavern_opengraph_desc",
+		"type": "textarea"
+	},
+	{
+		"label": "Другое",
+		"desc": "Здесь Вы можете сделать другие записи стандарта Open Graph, используйте формат: <strong>PROPERTY=CONTENT</strong> например og:country-name=Russia",
+		"id": "gavern_opengraph_other",
+		"type": "textarea"
+	}
+]

@@ -1,0 +1,76 @@
+[	
+	{
+		"name": "Header",
+		"id": "header",
+		"description": "Виджеты в верхней области сайта",
+		"before_widget": "<div id=\"%1$s\" class=\"box%2$s\"><div>",
+		"after_widget": "</div></div>",
+		"before_title": "",
+		"after_title": ""
+	},
+	{
+		"name": "Top widgets",
+		"id": "top",
+		"description": "Виджеты под верхней областью сайта",
+		"before_widget": "<div id=\"%1$s\" class=\"box%2$s\"><div>",
+		"after_widget": "</div></div>",
+		"before_title": "<h3 class=\"box-title\">",
+		"after_title": "</h3>",
+		"amount": "4"
+	},
+	{
+		"name": "Sidebar",
+		"id": "sidebar",
+		"description": "Боковая панель (Сайдбар)",
+		"before_widget": "<div id=\"%1$s\" class=\"box%2$s\"><div>",
+		"after_widget": "</div></div>",
+		"before_title": "<h3 class=\"box-title\">",
+		"after_title": "</h3>"
+	},	
+	{
+		"name": "Mainbody Top",
+		"id": "mainbody_top",
+		"description": "Блок над основным содержимым",
+		"before_widget": "<div id=\"%1$s\" class=\"box%2$s\"><div>",
+		"after_widget": "</div></div>",
+		"before_title": "<h3 class=\"box-title\">",
+		"after_title": "</h3>"
+	},
+	{
+		"name": "Mainbody",
+		"id": "mainbody",
+		"description": "Область для виджетов вместо основного содержимого(постов, страниц), используется, только если включена соответствующая опция в настройках Темы",
+		"before_widget": "<div id=\"%1$s\" class=\"box%2$s\"><div>",
+		"after_widget": "</div></div>",
+		"before_title": "<h3 class=\"box-title\">",
+		"after_title": "</h3>"
+	},
+	{
+		"name": "Mainbody Bottom",
+		"id": "mainbody_bottom",
+		"description": "Блок под основным содержимым",
+		"before_widget": "<div id=\"%1$s\" class=\"box%2$s\"><div>",
+		"after_widget": "</div></div>",
+		"before_title": "<h3 class=\"box-title\">",
+		"after_title": "</h3>"
+	},
+	{
+		"name": "Bottom widgets",
+		"id": "bottom",
+		"description": "Область виджетов в нижней части сайта",
+		"before_widget": "<div id=\"%1$s\" class=\"box%2$s\"><div>",
+		"after_widget": "</div></div>",
+		"before_title": "<h3 class=\"box-title\">",
+		"after_title": "</h3>",
+		"amount": "6"
+	},
+	{
+		"name": "Social",
+		"id": "social",
+		"description": "Область, специально созданная для виджета GK Social Icons",
+		"before_widget": "",
+		"after_widget": "",
+		"before_title": "",
+		"after_title": ""
+	}
+]
