@@ -1,0 +1,12 @@
+[
+	["Основное", 			"options.basic",					"enabled"],
+	["Разметка",	 		"options.layout",					"enabled"],
+	["Шрифты", 				"options.fonts",					"enabled"],
+	["Навигация", 			"options.navigation",				"enabled"],
+	["Расширенное", 		"options.advanced",					"enabled"],
+	["Шорткоды", 			"options.shortcodes",				"enabled"],
+	["Социальные API", 		"options.socialapi",				"enabled"],
+	["Брендинг Темы", 		"options.themebranding",			"enabled"],
+	["Брендинг Back-End", 	"options.backendbranding",			"enabled"],
+	["Настройки SEO", 		"options.seo",						"enabled"]
+]

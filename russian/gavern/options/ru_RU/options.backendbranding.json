@@ -1,0 +1,52 @@
+[
+	{
+		"groupname": "Настройки бренда в Back-End части",
+		"groupdesc": "Вы можете настроить показ Ваших фирменных знаков на странице входа на сайт и в административной панели",
+		"fields": [
+			{
+				"name": "branding_login_page_image",
+				"type": "Media",
+				"label": "Логотип на странице 'Войти'",
+				"tooltip": "Выберите изображение для логотипа",
+				"default": "",
+				"class": "",
+				"visibility": ""
+			},
+			{
+				"name": "branding_login_page_image_width_height",
+				"type": "WidthHeight",
+				"label": "Размер логотипа",
+				"tooltip": "Укажите размеры для логотипа",
+				"default": "",
+				"class": "",
+				"visibility": "",
+				"other": {
+					"size": "2",
+					"unit": "пикселей"
+				}
+			},
+			{
+				"name": "branding_admin_page_image",
+				"type": "Media",
+				"label": "Логотип в административной панели (16x16px).",
+				"tooltip": "Выберите изображение для логотипа (идеальный размер 16x16 пикселей)",
+				"default": "",
+				"class": "",
+				"visibility": ""
+			},
+			{
+				"name": "branding_admin_page_image_width_height",
+				"type": "WidthHeight",
+				"label": "Размер логотипа",
+				"tooltip": "Укажите размер логотипа (идеальный размер 16x16 пикселей)",
+				"default": "",
+				"class": "",
+				"visibility": "",
+				"other": {
+					"size": "2",
+					"unit": "пикселей"
+				}
+			}
+		]
+	}
+]

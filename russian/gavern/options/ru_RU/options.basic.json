@@ -1,0 +1,82 @@
+[
+	{
+		"groupname": "Основные настройки",
+		"groupdesc": "Основные параметры темы",
+		"fields": [
+			{
+				"name": "template_style",
+				"type": "ThemeStyle",
+				"label": "Theme Style",
+				"tooltip": "Вы можете выбрать один из созданных стилей для темы",
+				"default": "style1"
+			},
+			{
+				"name": "styleswitcher_state",
+				"type": "Switcher",
+				"label": "Переключатель стилей",
+				"tooltip": "Включить отображение переключателя стилей на сайте",
+				"default": "Y",
+				"class": "",
+				"visibility": ""
+			},
+			{
+				"name": "breadcrumbs_state",
+				"type": "Select",
+				"label": "Хлебные крошки",
+				"tooltip": "Включить отображение хлебных крошек на сайте",
+				"default": "Y",
+				"class": "",
+				"visibility": "",
+				"other": {
+					"options": {
+						"Y": "Включить",
+						"N": "Выключить",
+						"rule": "Создать правило"
+					}
+				}
+			},
+			{
+				"name": "breadcrumbs_staterule",
+				"type": "Text",
+				"label": "Показывать только на указанных страницах:",
+				"tooltip": "Включить отображение хлебных крошек только на выбранных страницах. Пример: is_home() - покажет только на главной; Правила использования читайте здесь: http://codex.wordpress.org/Conditional_Tags",
+				"default": "",
+				"class": "",
+				"visibility": "breadcrumbs_state=rule"
+			},
+			{
+				"name": "social_icons_position",
+				"type": "Select",
+				"label": "Ссылки на аккаунты социальных сетей",
+				"tooltip": "Вы можете выбрать позицию для виджета социальных иконок",
+				"default": "right",
+				"class": "",
+				"visibility": "",
+				"other": {
+					"options": {
+						"right": "Справа",
+						"left": "Слева"
+					}
+				}
+			},
+			{
+				"name": "template_homepage_mainbody",
+				"type": "Switcher",
+				"label": "Только виджеты на главной странице",
+				"tooltip": "Включите этот параметр если хотите увидеть на главной странице только виджеты без вывода постов",
+				"default": "N",
+				"class": "",
+				"visibility": ""
+			},
+			{
+				"name": "template_show_author_info",
+				"type": "Switcher",
+				"label": "Показывать информацию об авторе",
+				"tooltip": "Включить отображение информации об авторе в конце каждого поста",
+				"default": "Y",
+				"class": "",
+				"visibility": ""
+			}
+		]
+	}
+]

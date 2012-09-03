@@ -1,0 +1,14 @@
+[
+	{
+		"main": true,
+		"location": "mainmenu",
+		"name": "Главное меню",
+		"description": "Основное меню темы"
+	},
+	{
+		"main": false,
+		"location": "footermenu",
+		"name": "Нижнее меню",
+		"description": "Меню показывается в нижней части сайта"
+	}
+]
